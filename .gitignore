@@ -1,0 +1,6 @@
+*.wav
+*.db
+.idea/
+__pyache__/
+frontend/.idea/
+frontend/node_moudles/*

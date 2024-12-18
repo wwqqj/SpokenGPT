@@ -1,0 +1,131 @@
+body {
+    --el-menu-bg-color: #202123;
+    --el-menu-text-color: white;
+    --el-menu-border-color: #202123;
+    --el-menu-hover-bg-color: gray;
+}
+
+body {
+    background: white;
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+    /*font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;*/
+}
+
+#out {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.el-header {
+    display: flex;
+    align-items: center;
+}
+
+.title-text {
+    font-size: 24px;  /* 设置标题的字体大小 */
+    font-weight: bold;  /* 设置标题的字体粗细 */
+}
+
+.name {
+    font-size: 16px;
+}
+
+.avatar {
+    margin-left: auto;
+}
+
+.my-svg {
+    color: white;
+    width: 20px;
+    height: 20px;
+    vertical-align: -15%;
+}
+
+#row {
+    /*margin-left: 20px;*/
+    /*margin-right: 20px;*/
+}
+
+#list {
+    /*border-radius: 5px;*/
+    /*border-style: solid;*/
+    /*border-width: 1px;*/
+    /*border-color: darkslategray;*/
+    /*margin-right: 4px;*/
+    padding: 16px;
+    background: #202123;
+    /*text-align: center;*/
+}
+
+#add {
+    --el-button-bg-color: #202123;
+    --el-button-hover-bg-color: gray;
+    padding-left: 16px;
+    width: 267px;
+    height: 45px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    /*text-align: left !important;*/
+}
+
+.white-text {
+    color: white !important;
+}
+
+#chat {
+    padding-left: 60px;
+    padding-right: 20px;
+    border-top-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    background: #f7f7f8;
+    /*border-radius: 5px;*/
+    /*margin-left: 4px;*/
+}
+
+.history-chat {
+    padding-left: 16px;
+    width: auto;
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+
+#menu {
+    margin-top: 16px;
+
+}
+
+.fixed-button {
+    position: fixed;
+    left: 60%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    z-index: 999;
+}
+
+.statement {
+    margin-top: 20px;
+    display: flex;
+}
+
+.left-column {
+    flex: 0 0 auto; /* 设置左边列不可伸缩，保持固定宽度 */
+}
+
+.right-column {
+    flex: 1; /* 设置右边列可伸缩，填充剩余空间 */
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.el-collapse {
+    --el-collapse-content-bg-color: #f7f7f8;
+    --el-collapse-header-bg-color: #f7f7f8;
+}
