@@ -1,7 +1,7 @@
 # SpokenGPT
 Cloud API-based speaking practice application
 
-# SpokenGPT: Cloud API-based Speaking Practice Application
+[中文](https://github.com/butemp/SpokenGPT/blob/main/readme_cn.md)
 
 ## Overview
 
